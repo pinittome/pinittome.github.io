@@ -1,0 +1,17 @@
+---
+layout: blog
+title: News
+---
+
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <div class="row">
+          <article class="span8">
+              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <p><a href="{{ post.url }}"><img class="img-rounded" src="assets/slide-02.jpg" alt=""></a></p>
+              <p>Post summary</p>
+              <a href="{{ post.url }}" class="btn">Read More &raquo;</a>
+          </article>
+      </div><!-- /.row -->
+      <hr>
+    {% endfor %}

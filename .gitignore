@@ -2,3 +2,4 @@ _site
 .settings
 .classpath
 *.swp
+theme

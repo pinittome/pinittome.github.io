@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Agilis Bootstrap Theme</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,800,600,300' rel='stylesheet' type='text/css'>
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="shortcut icon" href="favicon.png">
+	</head>
+
+	<body>
+		<div class="navbar-wrapper">
+			<div class="container">
+				<div class="navbar navbar-inverse">
+					<div class="navbar-inner">
+						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">Menu</a>
+						<a class="brand" href="index.html">Agilis</a>
+						<div class="nav-collapse collapse">
+							<ul class="nav">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<!-- dropdown -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</div><!-- /.navbar-inner -->
+				</div><!-- /.navbar -->
+			</div><!-- /.container -->
+		</div><!-- /.navbar-wrapper -->
+
+		<!-- image slider -->
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<!-- slide 1 -->
+				<div class="item active">
+					<img src="assets/slide-01.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Ideas Worth Marketing: That's it</h1>
+							<p class="lead visible-desktop">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <br> Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<a class="btn btn-large btn-primary" href="#">Sign up today</a>
+						</div>
+					</div>
+				</div>
+				<!-- slide 2 -->
+				<div class="item">
+					<img src="assets/slide-02.jpg" alt="">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Brand Modern World: Quick Look</h1>
+							<p class="lead visible-desktop">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. <br> Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<a class="btn btn-large btn-primary" href="#">Learn more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div><!-- /.carousel -->
+
+		<div class="middle-bar">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h2>All you have to do is press this fancy button <a href="#" class="btn btn-large">Sign Up <i class="icon-circle-arrow-right"></i></a></h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<!-- Three columns -->
+			<div class="row">
+				<div class="span4">
+					<h2>Strategy</h2>
+					<p><i class="icon-lightbulb icon-4x pull-left"></i>We break free from conventions and grow the market instead of just your slice. TBWA is a committed strategic partner helping.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div><!-- /.span4 -->
+				<div class="span4">
+					<h2>Analytics</h2>
+					<p><i class="icon-cogs icon-4x pull-left"></i>We help you to recognize growth opportunities related to the rapid changes in consumer media behaviour and fully grasp the benefits.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div><!-- /.span4 -->
+				<div class="span4">
+					<h2>Design</h2>
+					<p><i class="icon-beaker icon-4x pull-left"></i>For us, the product package represents the core media within shopper marketing. We manage the packaging design, from individual products.</p>
+					<p><a class="btn" href="#">View details &raquo;</a></p>
+				</div><!-- /.span4 -->
+			</div><!-- /.row -->
+
+			<hr>
+			<h2>Time to take the fancy tour:</h2>
+			<hr>
+
+			<!-- product tour -->
+			<div class="row">
+				<div class="span12 tour-section">
+					<img src="assets/product-01.jpg" alt="" class="pull-right tour-image">
+					<div class="ribbon-left ribbon-color-one">
+						<h2><i class="icon-cloud-download"></i> Download</h2>
+					</div>
+					<h3>Focusing on core compentence. <br/>
+					<span class="muted">It'll blow your mind.</span></h3>
+					<p class="lead">We provide the Swiss Army knife of all business website. Our highly optimized websites will help you grow your business. Our service works for any country.</p>
+					<p class="lead">Super dupper tools of all business websites. Our highly optimized websites will help you grow your business. Our service works for anyone anywhere in the world.</p>
+					<p><a href="#" class="btn btn-primary btn-large">Try it for free</a></p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="span12 tour-section">
+					<img src="assets/product-02.jpg" alt="" class="pull-left tour-image">
+					<div class="ribbon-right">
+						<h2>Compose <i class="icon-plus-sign-alt"></i></h2>
+					</div>
+					<h2>Oh yeah, it's that good. <br>
+					<span class="muted">See for yourself.</span></h2>
+					<p class="lead">We love to support independent business owners and understand that dealing with web designers or server hosts can be complicated. We simplify the process by bundling everything in one super dupper bundle just for you.</p>
+					<p class="lead">Independent business owners and understand that dealing with web designers or server hosts can be complicated. We simplify the process by bundling everything in one package.</p>
+					<p><a href="#" class="btn btn-primary btn-large">Try it for free</a></p>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="span12 tour-section">
+					<img src="assets/product-04.jpg" alt="" class="pull-right tour-image">
+					<div class="ribbon-left">
+						<h2><i class="icon-comments"></i> Share</h2>
+					</div>
+					<h2>And lastly, this one. <br>
+					<span class="muted">Checkmate.</span></h2>
+					<p class="lead">Awesome support team, your website is easy to update yourself and is already mobile optimized. We also continuously update our technology to remain competitive and up to date all the time.</p>
+					<p class="lead">Besides an awesome support team, your website is easy to update yourself and is already mobile optimized. We also continuously update our technology to remain competitive.</p>
+					<p><a href="#" class="btn btn-primary btn-large">Try it for free</a></p>
+				</div>
+			</div>
+			<hr>
+
+			<div class="row">
+				<div class="span12">
+					<div class="well centered">
+						<h3><i class="icon-magic"></i> Start a free trial now</h3>
+						<form class="form-inline">
+							Create an account:
+							<input type="text" placeholder="Email">
+							<input type="password" placeholder="Password">
+							<button type="submit" class="btn btn-primary">Sign Me Up</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</div><!-- /.container -->
+{% include footer.html %}
