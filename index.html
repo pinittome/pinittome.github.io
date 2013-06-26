@@ -3,15 +3,41 @@ layout: default
 title: Welcome to PinItTo.me
 ---
 
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      <div class="row">
-          <article class="span8">
-              <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <p><a href="{{ post.url }}"><img class="img-rounded" src="assets/slide-02.jpg" alt=""></a></p>
-              <p>Post summary</p>
-              <a href="{{ post.url }}" class="btn">Read More &raquo;</a>
-          </article>
-      </div><!-- /.row -->
-      <hr>
-    {% endfor %}
+<div class="container">
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="span4">
+            <h2>Features</h2>
+            <ul>
+                <li><i class="icon-pushpin"></i> Realtime collaboration</li>
+                <li><i class="icon-pushpin"></i> Safe and secure</li>                
+                <li><i class="icon-pushpin"></i> Board access controls</li>
+                <li><i class="icon-pushpin"></i> Free to use</li>
+                <li><i class="icon-pushpin"></i> Open source, run your own instance</li>
+            </ul>
+            <p><a class="btn" href="/features">Find out more &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Statistics</h2>
+            <p>Some real time stats about what is going on with the system:</p>
+            <ul>
+                <li>Number of boards: <span class="totals-boards">274</span></li>
+                <li>Number of cards: <span class="totals-cards">1211</span></li>
+                <li>Active socket connections: <span class="totals-sockets">2</span></li>
+            </ul>
+            <p><a class="btn disabled" href="#">Realtime statistics &raquo;</a></p>
+        </div>
+        <div class="span4">
+            <h2>Donate</h2>
+            <p>PinItTo.me is currently a free service. If you like our application please donate to help keep the service online and ad-free.</p>
+            <p><a class="btn" href="#">Donate &raquo;</a></p>
+              
+            <h2>Contribute</h2>
+            <p>PinItTo.me is an Open Source project. The application source code is freely available on GitHub.</p>
+            <p><a class="btn" href="https://github.com/pinittome" target="_blank">GitHub Repo &raquo;</a></p>                          
+            
+        </div>
+    </div>
+
+</div> <!-- /container -->
