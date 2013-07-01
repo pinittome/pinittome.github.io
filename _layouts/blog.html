@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<h1>Our Weblog //</h1>
+						<h1>News //</h1>
 					</div>
 				</div>
 			</div>
@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<h2>Some Reflections We Have Collected Along The Way</h2>
+						<h2>Learn about the past, present, and future of pinitto.me</h2>
 					</div>
 				</div>
 			</div>
@@ -25,32 +25,6 @@
 				<!-- left column -->
 				<div class="span8">
                                 {{ content }}
-					<div class="row">
-						<article class="span8">
-							<h2><a href="single-post.html">Designing for the empty states</a></h2>
-							<p><a href="single-post.html"><img class="img-rounded" src="assets/slide-02.jpg" alt=""></a></p>
-							<p>Empty states are places in apps that have no content or data. They are empty. A blank page. Traditionally empty states are overlooked as most designers focus on how best to display lots of content or data. It's common for empty states to be dealt with by developers as...</p>
-							<a href="single-post.html" class="btn">Read More &raquo;</a>
-						</article>
-					</div><!-- /.row -->
-					<hr>
-					<div class="row">
-						<article class="span8">
-							<h2><a href="single-post.html">Scripting is the new literacy</a></h2>
-							<p><a href="single-post.html"><img class="img-rounded" src="assets/slide-01.jpg" alt=""></a></p>
-							<p>Empty states are places in apps that have no content or data. They are empty. A blank page. Traditionally empty states are overlooked as most designers focus on how best to display lots of content or data. It's common for empty states to be dealt with by developers as...</p>
-							<a href="single-post.html" class="btn">Read More &raquo;</a>
-						</article>
-					</div><!-- /.row -->
-					<hr>
-					<div class="row">
-						<article class="span8">
-							<h2><a href="single-post.html">Freelance Developers, you are the future</a></h2>
-							<p><a href="single-post.html"><img class="img-rounded" src="assets/slide-02.jpg" alt=""></a></p>
-							<p>Empty states are places in apps that have no content or data. They are empty. A blank page. Traditionally empty states are overlooked as most designers focus on how best to display lots of content or data. It's common for empty states to be dealt with by developers as...</p>
-							<a href="single-post.html" class="btn">Read More &raquo;</a>
-						</article>
-					</div><!-- /.row -->
 				</div><!-- end of left column -->
 
 				<!-- sidebar -->
@@ -58,60 +32,11 @@
 					<!-- widget -->
 					<div class="row">
 						<div class="span4">
-							<h4>Search our blog</h4>
-							<input type="text" class="span4 search-query" placeholder="">
-						</div>
-					</div>
-					<hr>
-					<!-- widget -->
-					<div class="row">
-						<div class="span4">
-							<h4>3D Book Showcase</h4>
-							<p>Today we want to share an experimental book showcase concept with you. The idea is to make books look more realistic by using 3D transforms and apply some fun effects</p>
-						</div>
-					</div>
-					<hr>
-					<!-- widget -->
-					<div class="row">
-						<div class="span4">
-							<h4>Bandwidth Media Queries?</h4>
-							<img class="img-rounded" src="assets/banner-1.jpg" alt="">
-						</div>
-					</div>
-					<hr>
-					<!-- widget -->
-					<div class="row">
-						<div class="span4">
-							<h4>Improving Usability Tests</h4>
-							<p>Today we want to share an experimental book showcase concept with you. The idea is to make books look more realistic by using 3D transforms and apply some fun effects</p>
-						</div>
-					</div>
-					<hr>
-					<!-- widget -->
-					<div class="row">
-						<div class="span4">
-							<h4>Keep Your Online Profile Clean</h4>
-							<img src="assets/banner-5.jpg" alt="" class="img-rounded">
-						</div>
-					</div>
-					<hr>
-					<!-- widget -->
-					<div class="row">
-						<div class="span4">
 							<h4>Hot topics</h4>
 							<ul class="tag-cloud">
-								<li><a href="#">styles</a></li>
-								<li><a href="#">layout</a></li>
-								<li><a href="#">letterpress</a></li>
-								<li><a href="#">magazine</a></li>
-								<li><a href="#">menu</a></li>
-								<li><a href="#">metal</a></li>
-								<li><a href="#">navigation</a></li>
-								<li><a href="#">paper</a></li>
-								<li><a href="#">print</a></li>
-								<li><a href="#">scripts</a></li>
-								<li><a href="#">git</a></li>
-								<li><a href="#">node</a></li>
+                                                        {% for tag in site.tags %}
+                                                        <li><a href="#">{{ tag[0] }}</a></li>
+                                                        {% endfor %}
 							</ul>
 						</div>
 					</div>
